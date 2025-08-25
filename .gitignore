@@ -1,0 +1,56 @@
+###############
+# Build Artifacts
+###############
+
+**/bin/
+**/obj/
+**/publish/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+###############
+# NuGet & MSBuild
+###############
+
+*.nupkg
+**/project.assets.json
+**/project.nuget.cache
+*.csproj.nuget.*
+*.deps.json
+*.runtimeconfig.json
+
+###############
+# IDEs (Visual Studio, VS Code, JetBrains Rider)
+###############
+
+**/.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.csproj.user
+
+.vscode/
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+###############
+# OS-Specific Junk
+###############
+
+.DS_Store
+Thumbs.db
+
+###############
+# Others
+###############
+
+*.vsix       # VS extensions
+*.db         # CopilotIndices / SQLite caches
+*.vsidx      # FileContentIndex
+*.json       # backup layout files (only if IDE-generated)
+*.bak        # backups
